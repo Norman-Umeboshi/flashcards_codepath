@@ -12,7 +12,6 @@
         android:layout_height="200dp"
         android:text="How many people are in the world?"
         android:textSize="40sp"
-        android:background="@color/purple_200"
         android:gravity="center"
         />
 
@@ -22,7 +21,14 @@
         android:layout_height="200dp"
         android:gravity="center"
         android:text="7 Billion or something"
-        android:background="@color/teal_200"
         android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_iconmonstr_plus_2" />
 
 </RelativeLayout>
