@@ -46,3 +46,24 @@ This app acts as a virtual flashcard. It has a question on one side and the answ
 - [ ] A notification is shown if the card was created successfully
 - [ ] User can also enter multiple choice answers when creating a card
 - [ ] App is further styled and customized!
+
+## Lab 3
+
+### App Description
+This app acts as a virtual flashcard. It has a question on one side and the answer on the other side. A card can be added by using the '+' button. Cards are stored in a database so that they can be accessed later. A card can be removed by clicking the trashcan button.
+
+### App Walk-though
+
+
+<img src="https://i.imgur.com/Cev7PRg.gif" width=200><br>
+
+
+## Required
+- [x] User can create a card and still see their created card when the app is relaunched.
+- [x] User can create muliple cards and browse through all created cards
+
+## Optional
+- [x] User can delete a card and no longer see it in their deck anymore
+- [ ] Flashcards are shown in random order instead of the order they were created in
+- [ ] User can edit a card and see the edit saved when they browse through their deck of cards
+- [ ] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown

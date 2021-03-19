@@ -10,7 +10,7 @@
         android:id="@+id/flashcardQ"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:text="How many people are in the world?"
+        android:text="Add your question!"
         android:textSize="40sp"
         android:gravity="center"
         />
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="7 Billion or something"
+        android:text="HEY ADD YOUR QUESTION WHAT ARE U DOING!"
         android:textSize="40sp" />
 
     <ImageView
@@ -30,5 +30,21 @@
         android:layout_marginTop="500dp"
         android:layout_marginLeft="300dp"
         android:src="@drawable/ic_iconmonstr_plus_2" />
+
+    <ImageView
+        android:id="@+id/nextButton"
+        android:layout_width="47dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/ic_iconmonstr_arrow_25" />
+
+    <ImageView
+        android:id="@+id/trashButton"
+        android:layout_width="47dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/ic_iconmonstr_trash_can_1" />
 
 </RelativeLayout>
